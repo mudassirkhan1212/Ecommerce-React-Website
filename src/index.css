@@ -1,0 +1,16 @@
+.car {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.head-2 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-family: "TiemposHeadline";
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #474d66;
+}

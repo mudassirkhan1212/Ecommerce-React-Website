@@ -1,0 +1,106 @@
+.car-text {
+  padding-top: 30px;
+}
+
+.product-title a {
+  font-weight: 600;
+  color: #747783;
+  text-decoration: none;
+}
+
+.car-text .product-title {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  padding-bottom: 10px;
+}
+
+.author a {
+  color: #3d4c99;
+  text-decoration: none;
+  transition: all 0.12s ease-in;
+}
+
+.author {
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.author:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.selling {
+  padding-bottom: 10px;
+}
+
+.normal-price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #353b57;
+}
+
+.dis-price {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #6b6f7a;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+
+.pro-info {
+  padding-bottom: 25px;
+}
+.pro-info:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.pro-info a {
+  text-decoration: none;
+}
+.pro-info span {
+  color: #3d4c99;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.pro-info span span {
+  display: block;
+}
+
+.cardd .card-img {
+  transition: all 120ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 208px;
+}
+.card-img a img {
+  width: auto !important;
+  max-width: 100%;
+  max-height: 220px;
+  padding: 0px 20px;
+}
+.card-img {
+  background-color: #f4f6f9;
+  min-height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardd:hover .product-title {
+  text-decoration: underline;
+}
+
+.cardd:hover .card-img {
+  transform: translateY(-10px);
+}
+
+
