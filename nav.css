@@ -1,0 +1,26 @@
+
+nav {
+background: #f5f6fa;
+}
+.nav-row {
+  padding: 20px 0px;
+  text-align: center;
+  
+}
+
+.nav-row a {
+  padding: 0.05rem 4.6rem;
+  position: relative;
+  text-transform: uppercase;
+  color: #3e4459;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-size: 13px;
+  text-align: center;
+
+
+}
+
+.side {
+    border-right: 1px solid #dadce6;
+}
