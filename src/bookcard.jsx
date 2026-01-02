@@ -1,3 +1,6 @@
+
+import { Link } from "react-router-dom";
+
 import "./bookcard.css";
 
 function Bookcard(cardinfo) {
@@ -11,7 +14,7 @@ function Bookcard(cardinfo) {
         </div>
         <div className="car-text">
           <div className="product-title">
-            <a href="">{cardinfo.title}</a>
+           <Link to={cardinfo.bookdetail}> <a href="">{cardinfo.title}</a></Link>
           </div>
           <div className="author">
             <a href="">{cardinfo.author}</a>

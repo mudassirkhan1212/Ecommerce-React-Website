@@ -1,0 +1,124 @@
+a:link {
+  color: #3d4c99;
+  text-decoration: none;
+}
+
+.bookdetail {
+  padding: 50px 0px;
+}
+
+.booktitle {
+  border-bottom: 1px solid #bfc4de;
+}
+
+.linkbox {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+.linkbox span {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+}
+.box {
+  background-color: #fff;
+  border-radius: 0;
+  border: 1px solid #c4c9cc;
+  display: inline-flex;
+  flex-direction: column;
+  color: #353b57;
+  padding: 12px 0 0 12px;
+  min-width: 140px;
+  min-height: 72px;
+  text-align: left;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.price-span {
+  margin-bottom: 30px;
+}
+.first-price {
+  font-family: "TiemposHeadline";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #474d66;
+}
+.price-span > span {
+  display: inline-block;
+  margin-right: 16px;
+}
+.dis-price {
+    color: #6b6f7a;
+    font-size: 12px;
+    line-height: 2rem;
+    font-weight: 600;
+}
+.saving {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #dc3445;
+}
+.button {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 10px;
+}
+.order-btn {
+  line-height: 36px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.93px;
+
+  background-color: #252e52;
+  border: 1px solid #252e52;
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  width: 50%;
+}
+.order-btn a {
+  color: #fff !important;
+}
+
+.order-btn2 {
+  line-height: 36px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.93px;
+
+     background-color: #fafafc;
+    border: 1px solid #a3a7bf;
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  width: 50%;
+}
+.order-btn2 a {
+     color: #454e73 !important;
+}
+
+
+.booktitle h1 {
+  font-family: "TiemposHeadline";
+  font-weight: 600;
+  color: #474d66;
+  padding: 0 0 3rem 0;
+  margin: 0;
+  border: 0;
+}
+.booktitle-p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b6f7a;
+  line-height: 20px;
+}
+.booktitle-p a {
+  color: #3d4c99;
+  text-decoration: none;
+  transition: all 0.12s ease-in;
+}
