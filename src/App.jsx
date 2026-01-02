@@ -3,12 +3,24 @@ import Book from "./book";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Bookdetail from "./bookdetail";
 import book from "./assets/img/9781635570304.jpg";
-
+import Header from "./header";
+import Footer from "./footer";
+import Banner from "./banner.jsx"
 function App() {
   return (
-    <Router>
+    <>
+    <Header />
+    <Banner />
+       <Router>
       <Routes>
-        <Route path="/" element={<Book />} />
+       
+        <Route path="/" element={<>
+        <Book />
+        <Book />
+        <Book />
+        <Book />
+        </>} />
+        
         <Route
           path="/bookdetail/:id"
           element={
@@ -37,6 +49,9 @@ function App() {
         />
       </Routes>
     </Router>
+    <Footer></Footer>
+    </>
+ 
   );
 }
 

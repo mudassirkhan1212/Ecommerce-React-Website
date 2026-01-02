@@ -1,0 +1,29 @@
+
+footer {
+    background-color: #3a4059;
+    color: #fff;
+}
+footer h4 {
+    font-size: 15px;
+    color: #fff;
+    border-bottom: 1px solid #c3c7d9;
+    padding-bottom: 20px;
+    margin-bottom: 14px;
+    font-family: "TiemposHeadline", serif;
+    font-weight: 600;
+}
+footer ul li {
+    font-size: 12px;
+    padding: 5px 0; 
+
+}
+.footer-list {
+    padding: 60px 0px;
+}
+.footer-list ul li {
+    list-style: none;
+padding-left: 0;
+}
+ul {
+    padding-left: 0 !important;
+}

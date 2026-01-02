@@ -2,7 +2,6 @@ import "./author.css";
 import Book from "./book";
 import book from "./assets/img/22705.jpg";
 function Author() {
-  <></>;
   return (
     <>
       <section className="color-bg">
@@ -38,9 +37,7 @@ function Author() {
           </div>
         </div>
       </section>
-      <section>
-        <Book />
-      </section>
+   
     </>
   );
 }

@@ -44,7 +44,7 @@ function Book() {
       type: "Paperback",
       formats: "+1 other formats",
       image: book2,
-      bookdetail: "/bookdetail/2",
+      bookdetail: "",
     },
     {
       title: "The House of Doors",
@@ -54,7 +54,7 @@ function Book() {
       type: "Paperback",
       formats: "+2 other formats",
       image: book3,
-      bookdetail: "/bookdetail/3",
+      bookdetail: "",
     },
     {
       title: "The Island of Missing Trees",
@@ -64,7 +64,7 @@ function Book() {
       type: "Hardback",
       formats: "+2 other formats",
       image: book4,
-      bookdetail: "/bookdetail/4",
+      bookdetail: "",
     },
     {
       title: "The Island of Missing Trees",
@@ -74,7 +74,7 @@ function Book() {
       type: "Hardback",
       formats: "+2 other formats",
       image: book5,
-      bookdetail: "/bookdetail/5",
+      bookdetail: "",
     },
     {
       title: "The House of Doors",
@@ -84,7 +84,7 @@ function Book() {
       type: "Paperback",
       formats: "+2 other formats",
       image: book3,
-      bookdetail: "/bookdetail/3",
+      bookdetail: "",
     },
     {
       title: "The Island of Missing Trees",
@@ -94,7 +94,7 @@ function Book() {
       type: "Hardback",
       formats: "+2 other formats",
       image: book4,
-      bookdetail: "/bookdetail/4",
+      bookdetail: "",
     },
     {
       title: "The Island of Missing Trees",
@@ -104,19 +104,19 @@ function Book() {
       type: "Hardback",
       formats: "+2 other formats",
       image: book5,
-      bookdetail: "/bookdetail/5",
+      bookdetail: "",
     },
   ];
 
   return (
-    <div className="mt-3 container">
+    <div className="mt-5 container">
       <h2 className="head-2">Binge-worthy fantasy</h2>
       <Swiper
         spaceBetween={30}
         slidesPerView={6}
         navigation
         modules={[Navigation]}
-             breakpoints={{
+        breakpoints={{
           // when window width is >= 320px
           320: {
             slidesPerView: 2,

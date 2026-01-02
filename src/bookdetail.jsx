@@ -28,6 +28,7 @@ function Bookdetail(bookdetail) {
                   </p>
                 </div>
               </div>
+              
               <div className="linkbox">
                 <Bookdetailprice format="Paperback" price="$20.00 $18.00" />
                 <Bookdetailprice format="Paperback" price="$20.00 $18.00" />
